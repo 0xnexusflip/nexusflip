@@ -3,8 +3,7 @@
 #### 🤔 Who am I?
 - 🕵🏿 Smart Contract/Fullstack Engineer with 10+ years of development experience and 2 years of Blockchain engineering experience.
 - ❤️‍🔥 My main development interest areas are Decentralized Finance Smart Contracts with a strong focus on Automated Market Maker design, as well as Smart Contract Security.
-- 🫂 Assisted 3 different DeFi projects in reaching production launch, namely leading the Product/Engineering team at Poolshark Labs, and have been an active contributor in several other projects. 
-- 🔎 Currently assisting bera.buzz as a Smart Contract Engineer.
+- 🫂 Assisted 4 different DeFi projects in reaching production launch, namely leading the Product/Engineering team at Poolshark Labs and bera.buzz, and have been an active contributor in several other projects. 
 - 🤝 I’m actively looking to collaborate on anything DeFi and security related. Let's keep it permissionless! [My CV](https://docs.google.com/document/d/13vQkV5Q1rJr3vEjlZ_20pcpExPRVrRP_EHE_sN2N_IE/edit?usp=sharing)
 - 📫 Ask me anything! You can reach me at [0xnexusflip@gmail.com](mailto:0xnexusflip@gmail.com) or via [Telegram](https://t.me/zeroxnexus).
 
@@ -55,7 +54,7 @@
 **🐝 bera.buzz - A token launchpad leveraging customization and Proof of Liquidity**
 - **Roles:** Smart Contract Engineer
 - **Website/Dapp:** [bera.buzz](https://bera.buzz/)
-- **What I did:** Refactored the exponential bonding curve and token deployment mechanisms within the smart contract scope for the project, designed and built several other features from the ground up, found and remediated several security vulnerabilities within scope
+- **What I did:** Refactored the exponential bonding curve and token deployment mechanisms within the smart contract scope for the project, designed and built several other features from the ground up, found and remediated several security vulnerabilities within scope. Led the Engineering team to a production launch.
 
 **🌅 New Order DAO - A decentralized incubator for Web3 projects**
 - **Roles:** Integrations Engineer
