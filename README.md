@@ -1,79 +1,37 @@
 ### Hi, I'm nexusflip 😎
 
-#### 🤔 Who am I?
-- 🕵🏿 Smart Contract/Fullstack Engineer with 10+ years of development experience and 2 years of Blockchain engineering experience.
-- ❤️‍🔥 My main development interest areas are Decentralized Finance Smart Contracts with a strong focus on Automated Market Maker design, as well as Smart Contract Security.
-- 🫂 Assisted 4 different DeFi projects in reaching production launch, namely leading the Product/Engineering team at Poolshark Labs and bera.buzz, and have been an active contributor in several other projects. 
-- 🤝 I’m actively looking to collaborate on anything DeFi and security related. Let's keep it permissionless! [My CV](https://docs.google.com/document/d/13vQkV5Q1rJr3vEjlZ_20pcpExPRVrRP_EHE_sN2N_IE/edit?usp=sharing)
-- 📫 Ask me anything! You can reach me at [0xnexusflip@gmail.com](mailto:0xnexusflip@gmail.com) or via [Telegram](https://t.me/zeroxnexus).
+- 🕵🏿 Smart Contract Engineer with 10+ years of development experience and 4 years of Blockchain engineering experience.
+- ❤️‍🔥 I build DeFi smart contracts: AMM design (Uniswap V4 hooks, Algebra Integral plugins, DEX aggregation), token launchpads and tokenomics (bonding curves, option tokens, ICO tooling), and Smart Contract Security (audits, stateful fuzzing, invariant testing).
+- 🫂 Shipped 8 DeFi protocols to production, plus the tooling around them: Subgraphs, SDKs and MCP servers that let AI agents launch and trade onchain.
+- 🤝 Open to collaborate on anything DeFi and security related. Let's keep it permissionless! [My CV](https://docs.google.com/document/d/1gCIW_0UfGRNVzBB83xeRfor_b5__jZlWIjHOsqcq2KI/edit?usp=sharing)
+- 📫 Reach me at [0xnexusflip@gmail.com](mailto:0xnexusflip@gmail.com) or via [Telegram](https://t.me/zeroxnexus).
 
-#### 🤓 The tech I use
-- Solidity
-- Foundry
-- Hardhat
-- Echidna
-- Slither/Slitherin
-- Rust
-- TypeScript/JavaScript
-- GraphQL
-- Next.js/React.js
-- HTML & Tailwind CSS
-- GraphQL
-- Viem
-- Wagmi
-- ethers.js
-- Zustand
-- Apollo Client
+#### 🤓 Stack
 
-### 💻 Some work you might know me for
+Solidity · Foundry · Uniswap V4 · Algebra Integral · Echidna / Medusa / Halmos · Slither · Rust · Sway · TypeScript · Next.js · Viem / Wagmi · The Graph / Goldsky · MCP · Flashbots
 
-**🦈 Poolshark Protocol - A directional AMM with native liquidity primitives**
-- **Roles:** Technical Lead, Fullstack Engineer, Lead Business Developer
-- **Website:** [Poolshark Protocol](https://www.poolshark.fi/)
-- **What I did:** Led the Product Team, designed and developed the dapp, co-designed the specs for Cover Pools, contributed towards the smart contract scopes of Cover, Limit and Range Pools, ported Range Pools to Sway (a Rust-like language for the Fuel Network VM), created several math libs for concentrated liquidity AMMs in Sway
-- **Dapp:** [Poolshark Dapp](https://dapp.poolshark.fi/)
-- **Dapp Source Code:** [poolshark-interface](https://github.com/poolshark-protocol/poolshark-interface)
-- **Sway Libs/Exeggutor AMM:** [libsway](https://github.com/libsway)
-- **Cover Pools:** [cover](https://github.com/poolshark-protocol/cover)
-- **Limit Pools:** [limit](https://github.com/poolshark-protocol/limit)
-- **Range Pools:** [range](https://github.com/poolshark-protocol/range)
+#### 💯 Highlights
 
-**🫠 Y2K Finance (now Fractality) - An ERC-4626 prediction market for pegged assets**
-- **Roles:** Smart Contract Engineer
-- **Website:** [Y2K Finance](https://www.y2k.finance/)
-- **What I did:** Major contributions to the V1 and V2 iterations of the Earthquake smart contract scopes
-- **Dapp:** [Y2K Finance Dapp](https://www.app.y2k.finance/)
-- **Source Code:** [Earthquake](https://github.com/Y2K-Finance/Earthquake)
+- 🏰 Rewrote the Camelot DEX aggregator, now the default router on every Camelot, Cypher and Sheriff chain, for a DEX with 23B+ USD in 2025 volume across 18+ chains.
+- 🍯 Designed and built Beraborrow's POLLEN tokenomics layer from scratch in 24 days for a CDP that peaked at 423MM USD TVL (4th largest). The POLLEN sale raised 1MM USD at a 42MM USD FDV.
+- 🍯 Hardened Beraborrow's 33 Managed Leveraged Vaults through the 2.7B USD Boyco unlock with a NECT loss-compensation mechanism and 40+ tests.
+- 🫠 Owned the Y2K Earthquake V1 testing and hardening for a protocol that cleared 100MM+ USD in deposits in 6 months and settled 9 live depegs without incident, FTX week and the SVB weekend included.
+- 🔐 Built Cypher's ICO platform, which raised 777 ETH (2.1MM+ USD) from 785 buyers. The CYPH sale sold out its 1.5MM USD cap in under 3 hours with no VCs.
+- 🪙 Designed the CYPH token stack: 107MM CYPH (10.7% of supply) escrowed, 3070 option exercises worth 93 ETH towards the protocol's treasury, and 17.2MM CYPH bought back through 890+ automated distributions.
+- 🦈 Led Poolshark Protocol's Product team from a 270-user closed beta to a 5000+ sign-up beta and an Arbitrum Mainnet launch. The FIN public sale sold out 135 WETH (300K USD) in 43 minutes, alongside a 900K+ USD private round.
 
-**🔍 Coverage Labs - A web3 security firm**
-- **Roles:** Security Researcher
-- **What I did:** Conducted two audits of the Hex One Protocol, a lending protocol on PulseChain using escrowed $HEX as collateral to mint $HEX1, a novel stablecoin
-- **Website:** [Coverage Labs](https://www.coveragelabs.io/)
-- **Reviews I participated in:** [Hex One Protocol Audits](https://github.com/coveragelabs/portfolio/tree/main/reports)
+#### 💻 Work
 
-**🐝 bera.buzz - A token launchpad leveraging customization and Proof of Liquidity**
-- **Roles:** Smart Contract Engineer
-- **Website/Dapp:** [bera.buzz](https://bera.buzz/)
-- **What I did:** Refactored the exponential bonding curve and token deployment mechanisms within the smart contract scope for the project, designed and built several other features from the ground up, found and remediated several security vulnerabilities within scope. Led the Engineering team to a production launch.
-
-**🌅 New Order DAO - A decentralized incubator for Web3 projects**
-- **Roles:** Integrations Engineer
-- **What I did:** Developed a Subgraph for 10+ token airdrop distribution data endpoints, as well as a CSV user reward data script in order to automate distribution
-- **Website:** [New Order DAO](https://www.neworder.network/)
-- **Source Code:** [venewo_rewards_subgraph](https://github.com/0xnexusflip/venewo-rewards-subgraph)
-
-**💹 IVX Finance - An options protocol for zero-day options**
-- **Roles:** Fullstack Engineer
-- **Website:** [IVX Finance](https://ivx.fi/)
-- **What I did:** Developed a high-performing TypeScript SDK to calculate option greeks as well as expected user financial returns. Also refactored their Subgraph iteration, as well as greatly assisting with adding functionalities to their dapp
-- **Dapp:** [IVX Finance Dapp](https://bartio.ivx.fi/)
-- **Source Code:** [options_sdk](https://github.com/0xnexusflip/options-sdk/)
-
-### 💯 Major Accolades
-- 🦈 Led the Product team at Poolshark Protocol to a very successful launch, amassing 1MM+ in TVL in a bear market. Greatly optimized their in‑house processes, did major development contributions for their dapp and having heavy involvement with the protocol design and smart contract development for their Cover, Limit and Range Pool products, as well as raising over 900k in investments.
-- 🫠 Assisted Y2K Finance (now Fractality) with enabling major codebase optimizations and resolving 100+ bugs in the process, as well as creating an extensive testing suite to ensure security and helping with major code contributions to the smart contract scope of the V1 and V2 of the protocol; resulting in a 10MM TVL peak in the midst of a bear market.
-- 🌅 Automated airdrop distribution of NEWO to thousands of New Order DAO token holders, mitigating human interaction during said process.
-- 💹 Created a TypeScript options SDK to handle options greeks and financial returns math for IVX Finance for which all options related protocols can wrap around their respective SDKs. Added several co-dependent stack functionalities to their dapp and refactored their Subgraph to include 50+ needed datapoints.
-- 🔍 Found 50+ vulnerabilities and optimizations during two security audits of the Hex One Protocol with Coverage Labs - a security auditing firm - which greatly improved the projects' robustness. Ensured the robustness of the protocols’ invariants through enforcing two different Invariant Testing setups with Echidna stateful fuzzing which unveiled 10+ vulnerabilities.
-- 🐝 Refactored the core functionalities for the bera.buzz smart contract scope, namely the exponential bonding curve and token deployment mechanisms, as well as building several features from the ground up and greatly optimizing the scope by finding and resolving several security vulnerabilities
+- 🏰 **[Camelot DEX](https://camelot.exchange/)** · Arbitrum · DEX aggregator, Algebra Integral plugins, fee contracts · [CamelotYakRouter](https://arbiscan.io/address/0x50c8E97fEb1e629196012b7CCCA4D4785Ed1eb1f) · [CamelotBasePlugin](https://arbiscan.io/address/0x1014252dEdD1D4Ed6aC504722263a241180c6132) · [CamelotFeeHelper](https://arbiscan.io/address/0x8F9d916f348B76324Acfc33317CC85ABfA774DFF)
+- 🍯 **[Beraborrow](https://www.beraborrow.com/)** · Berachain · CDP lending protocol, POLLEN tokenomics, leveraged vaults · [POLLEN](https://berascan.com/address/0xC99e948E9D183848a6c4F5E6C1d225F02f171d79) · [sPOLLEN](https://berascan.com/address/0xA83A84293379eC9961Be3b8308527fA3b1ad5eD9) · [PollenStaking](https://berascan.com/address/0xFD82EBDEc02c804938AD10977Db925Efb01C39eC) · [VotingEscrowPollen](https://berascan.com/address/0xD4264c46F76f0241fF8B606F6d97Da9E4B34624E) · [VePollenFeeDistributor](https://berascan.com/address/0x7916033b1C4dfD83dB7104C85947b61BA40E4c19) · [SPollenRewardDistributor](https://berascan.com/address/0x9c00B9cb89ec7B547DBB00C6939299A564ff4e85) · [pumpBTC Managed Leveraged Vault](https://berascan.com/address/0x9335B678179D433588a16065C4016133E3c2f523)
+- 🫠 **[Y2K Finance](https://www.y2k.finance/)** · Arbitrum · Earthquake V1 · [Earthquake](https://github.com/Y2K-Finance/Earthquake)
+- 🔐 **[Cypher](https://cyphereth.com/)** · Ethereum · CYPH token stack, ICO platform, DEX aggregator, [The Factory](https://factory.cyphereth.com/) token launchpad · [CYPH](https://etherscan.io/address/0xa279cA693D66fE65Ba0062D0218578F424249dfD) · [xCYPH escrow](https://etherscan.io/address/0x5163b56B5275401BdFa5e46c75Eb7c9D728848B6) · [Staking](https://etherscan.io/address/0xD9ca5Fe0A1Df4ae5266259736d3302b85b896E0c) · [oCYPH](https://etherscan.io/address/0x3F75580Cd579547a69854AC2924371209261b9d1) · [EarningsHandler](https://etherscan.io/address/0xC8BE5A6642B5514f9b1C9F29e6a3232D6545dE30) · [TokenSale](https://etherscan.io/address/0x3CD955a77b8842Fa5e7e1765E718905c04381AB7) · [factory-sdk](https://www.npmjs.com/package/@cypherindustries/factory-sdk) · [factory-mcp-server](https://www.npmjs.com/package/@cypherindustries/factory-mcp-server)
+- 🦈 **[Poolshark Protocol](https://www.poolshark.fi/)** · Arbitrum · directional AMM (Cover, Limit and Range pools), FIN token, dapp · [cover](https://github.com/poolshark-protocol/cover) · [limit](https://github.com/poolshark-protocol/limit) · [range](https://github.com/poolshark-protocol/range) · [poolshark-interface](https://github.com/poolshark-protocol/poolshark-interface)
+- 🚀 **[Frontier](https://frontier.fun/)** · Robinhood Chain · Uniswap V4 launchpad, FactoryHook, agent SDK · [FactoryHook](https://robinhoodchain.blockscout.com/address/0xee588bCF2bd3e658f5160489f4199d1851BBf0Cc) · [BCTokenFactory](https://robinhoodchain.blockscout.com/address/0xe3A826C056e578c240D362BF4C2fa53E5c0c17a5) · [BondingCurve](https://robinhoodchain.blockscout.com/address/0xEAAa2Ae7De8B80d7a59ECF08B078EFAC6fCe6659) · [LiquidityManager](https://robinhoodchain.blockscout.com/address/0x1716e590aB6eD7D0aC318C3033f8C4101f4f34c8) · [DynamicFeeExtension](https://robinhoodchain.blockscout.com/address/0x0AC12a15b38903C443227D0e0cFC7E102893C493) · [PolDistributor](https://robinhoodchain.blockscout.com/address/0x57ceF9B5844e2fB0181bd12d3918A8c6dCaa8F4e) · [CloneFactory](https://robinhoodchain.blockscout.com/address/0x7D41FFa655791e550Adbcd12CbAbdE0C327aBAe3) · [@frontierfun/sdk](https://www.npmjs.com/package/@frontierfun/sdk) · [@frontierfun/mcp-server](https://www.npmjs.com/package/@frontierfun/mcp-server)
+- 🤠 **[Sheriff Exchange](https://app.sheriff.exchange/)** · Robinhood Chain · Algebra V4 DEX · [SheriffYakRouter](https://robinhoodchain.blockscout.com/address/0xA0e4a789118A2B051ac863F80484F026029Ac03e) · [AlgebraFactory (Integral 1.2.2)](https://robinhoodchain.blockscout.com/address/0x21Fd9aB06cc927E66013e89b045c26b3eDE7bB20) · [SheriffBasePlugin](https://robinhoodchain.blockscout.com/address/0xe3Bb07d5561775b921Dc103Fc5E1Ca3b2bbC6557) · [SheriffFeeHelper](https://robinhoodchain.blockscout.com/address/0x4A30A6035f74d265DBa5d14CfCd98a98E0406D53)
+- 🌱 **Root DAO** · Ethereum · ROOT token, rootNFT and vesting contracts, dapp rebuild · [ROOT](https://etherscan.io/address/0x8d2658E0F52dF7875A7b3e58FC12F82F5e34dd61) · [Genesis rootNFT](https://etherscan.io/address/0x61658242A3Cb396098303d504bBc4495Fcc6Af84) · [ROOTVesting](https://etherscan.io/address/0x888698dadB226C3a85559814e0A4b90a124D4D2e)
+- 🐝 **[bera.buzz](https://bera.buzz/)** · Berachain · Proof of Liquidity-powered token launchpad with custom bonding curves and BEX auto-migration · [BuzzTokenFactory](https://berascan.com/address/0xD774C1C1c0b9cab6a18577160A34504990F53004) · [contracts](https://github.com/0xnexusflip/bera.buzz-contracts)
+- 🔍 **[Coverage Labs](https://github.com/coveragelabs)** · PulseChain · two Hex One Protocol audits, Foundry PoCs and Echidna fuzzing suites · [HexOneVault](https://scan.pulsechain.com/address/0x5fA107112E0C3B221fd4930cEB7010632b85bD13) · [HEX1](https://scan.pulsechain.com/address/0x298978f9B59A4BF9c08C114Fb6848fade7Be7E18) · [reports](https://github.com/coveragelabs/portfolio/tree/main/reports)
+- 💹 **[IVX Finance](https://ivx.fi/)** · Arbitrum, Berachain · Black-Scholes options SDK, Subgraph, dapp · [options-sdk](https://github.com/0xnexusflip/options-sdk/)
+- 🌅 **[New Order DAO](https://www.neworder.network/)** · Ethereum, Avalanche · veNEWO rewards Subgraph and airdrop pipeline · [venewo-rewards-subgraph](https://github.com/0xnexusflip/venewo-rewards-subgraph)
 
